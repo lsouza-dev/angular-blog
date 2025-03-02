@@ -1,0 +1,20 @@
+.articles__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles__main {
+    width: 40%;
+}
+
+.articles__others{
+    width: 40%;
+}
