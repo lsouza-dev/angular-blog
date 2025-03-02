@@ -1,14 +1,26 @@
 <header>
     <menu-bar></menu-bar>
 </header>
-<menu-title></menu-title>
+<menu-title [menuTitle]="'LSOUZA BLOG'"></menu-title>
 <div class="articles__container">
     <div class="articles__main">
-        <big-card></big-card>
+        <big-card 
+            [cardTitle]="'Capitão América: Brave New World apresenta reviravolta impactante!'"
+            [cardDescription]="'O próximo filme Capitão América: Brave New World trará uma reviravolta significativa com a morte de Dennis Dunphy, também conhecido como Demolition Man. Dunphy, um aliado próximo do novo Capitão América, será assassinado por Samuel Sterns durante uma investigação. Essa perda adiciona uma camada de profundidade emocional à trama do filme.'" 
+            [photoCover] = "'https://sm.ign.com/ign_pt/movie/c/captain-am/captain-america-4_vuzh.jpg'"></big-card>
     </div>
     <div class="articles__others">
-        <small-card></small-card>
-        <small-card></small-card>
-        <small-card></small-card>
+        <small-card
+            [photoCover]="'https://portalf5.com.br/v2017/content/uploads/2025/02/DC-Marvel-Jim-Lee-featured.jpg'"
+            [cardTitle]="'Marvel e DC anunciam crossover histórico para 2025!'"
+        ></small-card>
+        <small-card
+            [photoCover]="'https://img.odcdn.com.br/wp-content/uploads/2024/10/daredevil.jpg'"
+            [cardTitle]="'Marvel aposta alto em Demolidor: Born Again com lançamentos anuais'"
+        ></small-card>
+        <small-card
+            [photoCover]="'https://images.thedirect.com/media/article_full/marvel-disney-release.jpg'"
+            [cardTitle]="'Marvel divulga calendário de estreias no Disney+ para 2025'"
+        ></small-card>
     </div>
 </div>

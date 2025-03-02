@@ -9,6 +9,13 @@
     gap: 1rem;
 }
 
+.small-card__photo img{
+    max-width: 30%;
+    min-width: 200px;
+    height: 165px;
+    object-fit: cover;
+}
+
 .small-card__container__separator{
     margin: .5rem 0;
 }
