@@ -1,0 +1,28 @@
+.content__container{
+    height: 92dvh;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__cover{
+    border: 1px solid grey;
+}
+
+.content__cover img{
+    width: 500px;
+    border-radius: .3rem;
+    border: 5px solid rgb(87, 87, 87);
+    min-width: 500px;
+    height: 550px;
+}
+
+.content__description{
+    margin-top: 1rem;
+}
+
+.content__description p{
+    margin-top: 1.6rem;
+    color: rgb(75, 75, 75);
+}

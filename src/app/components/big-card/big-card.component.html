@@ -3,13 +3,9 @@
         <img src="{{photoCover}}" alt="">
     </div>
     <div class="big-card__title">
-        <a href="#">
-            <h1>{{cardTitle}}</h1>
-        </a>
+        <h1><a [routerLink]="['content',id]">{{cardTitle}}</a></h1>
     </div>
     <div class="big-card__description">
-        <a href="#">
-            <p>{{cardDescription}}</p>
-        </a>
+        <p><a [routerLink]="['content',id]">{{cardTitle}}</a></p>
     </div>
 </div>
